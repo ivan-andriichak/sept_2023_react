@@ -1,11 +1,13 @@
-import './App.css';
+// import {Posts} from "./components/PostsContainer/Posts";
+import {Launches} from "./components/SpaceXContainer/Launches";
 
-function App() {
+const App = () => {
   return (
-    <div>
-
-    </div>
+      <div>
+        {/*<Posts/>*/}
+        <Launches/>
+      </div>
   );
-}
+};
 
-export default App;
+export  default App;
