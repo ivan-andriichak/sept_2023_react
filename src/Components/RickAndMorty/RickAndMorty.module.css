@@ -1,0 +1,17 @@
+
+div {
+    margin: 0 auto 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #c9d9ac;
+}
+
+img {
+    border-radius: 10px;
+}
+
+p {
+    font-size: large;
+    margin: 5px;
+}
+
