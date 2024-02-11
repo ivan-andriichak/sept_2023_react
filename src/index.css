@@ -1,0 +1,42 @@
+
+/* Скидання базових стилів */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #cfd4e0;
+}
+
+/* Стилізація тіла документу */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+}
+
+/* Скидання списку стилів для списків */
+ul, ol {
+    list-style: none;
+}
+
+/* Скидання стилів для посилань */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Скидання стандартних стилів для кнопок */
+button, input[type="button"], input[type="submit"], input[type="reset"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Скидання стандартних стилів для таблиць */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
