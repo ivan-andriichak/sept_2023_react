@@ -1,11 +1,11 @@
-import './App.css';
+import {CarsContainer} from "./components/CarsContainer";
 
 function App() {
   return (
-    <div>
-
-    </div>
+      <div>
+        <CarsContainer/>
+      </div>
   );
 }
 
-export default App;
+export {App};
